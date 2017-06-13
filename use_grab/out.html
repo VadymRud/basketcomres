@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-Language" content="ru" />
+        <meta name="Author" content="IproAction Develop team" />
+		<meta name="Reply-to" content="ipa.develop.team@gmail.com" />
+		<meta http-equiv="Expires" content="Tue, 20 Aug 1996 14:25:27 GMT" />
+        
+        <link rel="icon" href="http://basket.com.ua/favicon.ico" type="image/x-icon" />
+        <title>Basket.com.ua</title>
+<meta name="description" content="Баскетбол Украины - информационно статистический сайт"/>
+<meta name="keywords" content="баскетбол, игры, результаты, аналитика, комментарии"/>
+                                	<script type="text/javascript" src="http://basket.com.ua/frontend/webcontent/js/jquery-1.8.2.min.js"></script>
+                        	<link href="http://basket.com.ua/frontend/webcontent/css/general.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="http://basket.com.ua/frontend/webcontent/js/general.js"></script>
+<script type="text/javascript" src="http://basket.com.ua/frontend/webcontent/js/checkbox.js"></script>
+<link href="http://basket.com.ua/frontend/handlers/RSS.php" title="RSS 2.0" type="application/rss+xml" rel="alternate"/>
+<link rel="stylesheet" href="http://basket.com.ua/frontend/webcontent/css/validationEngine.jquery.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+<script src="http://basket.com.ua/frontend/webcontent/js/formValidation/jquery.validationEngine-ru.js" type="text/javascript"></script>
+<script src="http://basket.com.ua/frontend/webcontent/js/formValidation/jquery.validationEngine.js" type="text/javascript"></script>
+                        	<script src="http://basket.com.ua/frontend/webcontent/js/personalArea.js" type="text/javascript"></script>
+                        	<script src="http://basket.com.ua/frontend/webcontent/js/popup.js" type="text/javascript"></script>
+                        	<script type="text/javascript" src="http://basket.com.ua/frontend/webcontent/js/swfobject.js"></script>
+                                    
+        <script type="text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-18704798-1']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+		
+		        
+        <script type="text/javascript">
+            var navPanelUpTxt = 'вверх';
+            var navPanelDownTxt = 'обратно';
+        </script>
+        <script type="text/javascript" src="//vk.com/js/api/openapi.js?122"></script>
+        <script type="text/javascript">
+            VK.init({apiId: 5557691, onlyWidgets: true});
+        </script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        
+        
+        
+	</head>
+    <body>
+        <div id="fb-root"></div>
+        
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : 573807966033867,
+                    xfbml      : true,
+                    version    : 'v2.7'
+                });
+            };
+
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/ru_RU/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+        </script>
+        
+        <div id="wrapper">
+            <div id="verticalNavPanel"></div>
+                                            <div class="headBanner"><p></p></div>
+                                        <div class="mainContainer">
+                <div class="header">
+                                                                <a id="homeLink" class="menu_top" href="http://basket.com.ua/">На главную</a><a id="mapLink" class="menu_top" href="http://basket.com.ua/tournament/1.htm">чемпионаты страны</a><span class="headerLinksSeparator">|</span><a id="monstersLink" class="menu_top" href="http://basket.com.ua/map/100.htm">карта баскетбола</a>
+                                            <div id="signInContainerHolder">
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('#startCountMess').click();
+        $("#slideSignInBlock").validationEngine();
+
+        
+                
+    });
+    </script>
+    
+    <div id="sighInContainer" class="sighInContainer">
+                        <a id="signEnterLink" href="javascript:void(0)">Вход</a>
+                <span class="separator">|</span>
+                <a href="http://basket.com.ua/register/199.htm" class="singregis">Регистрация</a>
+            </div>
+    <div id="slideSignInBlockHolder">
+        <form id="slideSignInBlock" class="slideSignInBlock" method="post" style="top:28px;">
+            <img src="http://basket.com.ua/frontend/webcontent/system_images/form_arrow.png" class="strelka_vhod" />
+                        <div class="rowItem first">
+                <div class="part1">
+                    Логин:
+                </div>
+                <div class="part2">
+                    <input id="signInLogin" name="login" type="text" value="" class="validate[required]" />
+                </div>
+            </div>
+            <div class="rowItem">
+                <div class="part1">
+                    Пароль:
+                </div>
+                <div class="part2">
+                    <input id="signInPassword" name="password" type="password" value="" class="validate[required]" />
+                </div>
+            </div>
+            <div class="rowItem">
+                <div class="part2Ex">
+                    <input type="checkbox" name="remMe" />
+                    <span id="c1">Запомнить меня</span>
+                </div>
+            </div>
+            <div class="rowItem">
+                <div class="part1">&nbsp;</div>
+                <div class="part2">
+                    <a href="#" onclick="$('#linkSignInSubmit').click();return false;" class="linkSignInSubmitBtn">вход</a>
+                    <br/>
+                    <a href="http://basket.com.ua/passwd/207.htm" class="cc1">
+                        Забыли пароль                    </a>
+                    <br />
+                    <a href="http://basket.com.ua/content/467.htm" class="cc1">
+                         Правила                    </a>
+                </div>
+            </div>
+                        <input type="submit" name="vhod" id="linkSignInSubmit" href="javascript:void(0)" value="вход" style="display:none;" />
+        </form>
+    </div>
+    <div id="opaco" class="hidden"></div>
+    <div id="popup" class="hidden"> </div>
+
+    <div id="popup_reference" class="hidden">
+        <div class="reference">
+            <table width="713px">
+                <tr width="713px">
+                    <td width="205px"><span id="loaddingData" style="display:none;"></span></td>
+                    <td width="508px"><a class="closeLink" href="#" onclick="$('#popup_reference').togglePopup();return false;">Закрыть</a></td>
+                </tr>
+                <tr width="713px">
+                    <td width="205px" style="float:left;">
+                        <div id="leftDialogs" style="float:left;width:205px;height:500px;overflow-y:scroll;">
+
+                        </div>
+                    </td>
+                    <td width="508px" id="dialogMessages">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+                                            <ul class="menuList">
+		   		<li class="imageMenuItem" id="menuListLevel1_0">
+			<a  href="http://basket.com.ua/" class="razdel">
+                                                                                <img src="http://basket.com.ua/frontend/webcontent/images/menuLogo.png" />
+                                        		</a>
+            <span class="separator"></span>
+    				</li>
+			   		<li  id="menuListLevel1_1">
+			<a  href="http://basket.com.ua/news_list/99.htm" class="razdel">
+                                    НОВОСТИ
+                    		</a>
+            <span class="separator"></span>
+    				</li>
+			   		<li  id="menuListLevel1_2">
+			<a id="sub_2" href="#" class="razdel">
+                                    СТАТИСТИКА
+                    		</a>
+            <span class="separator"></span>
+    		    		<ul class="menuListLevel2">
+    			    			    			    			    			<li id="menuListLevel2_2_0" class="list">
+    				<a href="#">Мужчины<img src="http://basket.com.ua/frontend/webcontent/system_images/arrow.png" class="arrow_1" /></a>
+    						    		<ul class="menuListLevel3">
+		    					    					    					    					    			<li id="menuListLevel3_0">
+		    				<a href="http://basket.com.ua/news_list/473.htm">Суперлига (+архив)</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_1">
+		    				<a href="http://basket.com.ua/news_list/509.htm">Сборная Украины</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_2">
+		    				<a href="http://basket.com.ua/news_list/495.htm">Еврокубки</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_3">
+		    				<a href="http://basket.com.ua/news_list/501.htm">Дубль</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_4">
+		    				<a href="http://basket.com.ua/news_list/494.htm">Кубок</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_5">
+		    				<a href="http://basket.com.ua/news_list/493.htm">Чемпионат Украины</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_6">
+		    				<a href="http://basket.com.ua/news_list/815.htm">Первая лига</a>
+		    			</li>
+		    					    					    		</ul>
+		    		    			</li>
+    			    			    			    			<li id="menuListLevel2_2_1" class="list">
+    				<a href="#">Женщины<img src="http://basket.com.ua/frontend/webcontent/system_images/arrow.png" class="arrow_1" /></a>
+    						    		<ul class="menuListLevel3">
+		    					    					    					    					    			<li id="menuListLevel3_0">
+		    				<a href="http://basket.com.ua/news_list/2218.htm">УПБЛ</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_1">
+		    				<a href="http://basket.com.ua/news_list/506.htm">Чемпионат Украины</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_2">
+		    				<a href="http://basket.com.ua/news_list/513.htm">Сборная Украины</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_3">
+		    				<a href="http://basket.com.ua/news_list/514.htm">Еврокубки</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_4">
+		    				<a href="http://basket.com.ua/news_list/515.htm">Кубок Украины (архив)</a>
+		    			</li>
+		    					    					    		</ul>
+		    		    			</li>
+    			    			    			    			<li id="menuListLevel2_2_2">
+    				<a href="http://basket.com.ua/news_list/512.htm">ЧЕ, ЧМ, ОИ</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_2_3">
+    				<a href="http://basket.com.ua/news_list/511.htm">ВЮБЛ (архив)</a>
+    				    			</li>
+    			    			    			    			    			    			    		</ul>
+    				</li>
+			   		<li  id="menuListLevel1_3">
+			<a id="sub_3" href="#" class="razdel">
+                                    КАЛЕНДАРЬ
+                    		</a>
+            <span class="separator"></span>
+    		    		<ul class="menuListLevel2">
+    			    			    			    			    			<li id="menuListLevel2_3_0" class="list">
+    				<a href="#">Мужчины<img src="http://basket.com.ua/frontend/webcontent/system_images/arrow.png" class="arrow_1" /></a>
+    						    		<ul class="menuListLevel3">
+		    					    					    					    					    			<li id="menuListLevel3_0">
+		    				<a href="http://basket.com.ua/news_list/497.htm">Суперлига</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_1">
+		    				<a href="http://basket.com.ua/news_list/508.htm">Сборная Украины</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_2">
+		    				<a href="http://basket.com.ua/news_list/507.htm">Еврокубки</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_3">
+		    				<a href="http://basket.com.ua/news_list/5941.htm">Чемпионат Украины</a>
+		    			</li>
+		    					    					    		</ul>
+		    		    			</li>
+    			    			    			    			<li id="menuListLevel2_3_1" class="list">
+    				<a href="#">Женщины<img src="http://basket.com.ua/frontend/webcontent/system_images/arrow.png" class="arrow_1" /></a>
+    						    		<ul class="menuListLevel3">
+		    					    					    					    					    			<li id="menuListLevel3_0">
+		    				<a href="http://basket.com.ua/news_list/502.htm">Чемпионат Украины</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_1">
+		    				<a href="http://basket.com.ua/news_list/503.htm">Сборная Украины</a>
+		    			</li>
+		    					    					    					    			<li id="menuListLevel3_2">
+		    				<a href="http://basket.com.ua/news_list/504.htm">Еврокубки</a>
+		    			</li>
+		    					    					    		</ul>
+		    		    			</li>
+    			    			    		</ul>
+    				</li>
+			   		<li  id="menuListLevel1_4">
+			<a id="sub_4" href="http://basket.com.ua/articleList/453.htm" class="razdel">
+                                    БЛОГИ
+                    		</a>
+            <span class="separator"></span>
+    		    		<ul class="menuListLevel2">
+    			    			    			    			    			<li id="menuListLevel2_4_0">
+    				<a href="http://basket.com.ua/addArticle/444.htm">Добавить статью</a>
+    				    			</li>
+    			    			    		</ul>
+    				</li>
+			   		<li  id="menuListLevel1_5">
+			<a id="sub_5" href="http://basket.com.ua/tournament/1.htm" class="razdel">
+                                    ТУРНИРЫ
+                    		</a>
+            <span class="separator"></span>
+    		    		<ul class="menuListLevel2">
+    			    			    			    			    			<li id="menuListLevel2_5_0">
+    				<a href="http://basket.com.ua/tournament/1.htm">Лига Монстров</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_1">
+    				<a href="http://basket.com.ua/news_list/1407.htm">Банковская лига</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_2">
+    				<a href="http://basket.com.ua/news_list/5910.htm">Николаевская Баскетбольная Лига</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_3">
+    				<a href="http://basket.com.ua/news_list/6222.htm">Одесская баскетбольная лига</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_4">
+    				<a href="http://basket.com.ua/tournament/2.htm">Лига Сумщины</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_5">
+    				<a href="http://basket.com.ua/tournament/4.htm">Чемпионат Львова</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_6">
+    				<a href="http://basket.com.ua/news_list/12927.htm">Чемпионат Запорожья</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_7">
+    				<a href="http://basket.com.ua/tournament/3.htm">Чемпионат Черкасс</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_8">
+    				<a href="http://basket.com.ua/tournament/5.htm">Чемпионат Черниговской области</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_9">
+    				<a href="http://basket.com.ua/tournament/9.htm">Чемпионат Ровенской области</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_10">
+    				<a href="http://basket.com.ua/news_list/490.htm">Стритбольные турниры</a>
+    				    			</li>
+    			    			    			    			    			    			    			    			<li id="menuListLevel2_5_13">
+    				<a href="http://basket.com.ua/news_list/3530.htm">Кубок Корбана</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_14">
+    				<a href="http://basket.com.ua/news_list/6651.htm">Чемпионат Киева</a>
+    				    			</li>
+    			    			    			    			<li id="menuListLevel2_5_15">
+    				<a href="http://basket.com.ua/news_list/940.htm">NEWSMAKER</a>
+    				    			</li>
+    			    			    		</ul>
+    				</li>
+			   		<li  id="menuListLevel1_6">
+			<a  href="http://basket.com.ua/content/463.htm" class="razdel">
+                                    FAQ
+                    		</a>
+            <span class="separator"></span>
+    				</li>
+		</ul>
+                                            <form id="searchBlock" class="searchBlock" action="http://basket.com.ua/search/14.htm" method="GET">
+	<div class="searchFon">
+		<input id="searchText" class="searchText" type="text" name="sfKeyWord" startText="поиск по сайту ..." value="поиск по сайту ..." />
+	</div>
+	<input class="simpleButton" type="submit" name="searchBut" value="Search" style="display:none;" />
+</form>
+                                            <div class="headBannerUnderMenu">
+<div class="headBannerUnderMenu">
+
+
+
+           </div> 
+
+
+
+                                                        </div>
+                <div class="contentContainer">
+                    <div class="contentRight">
+                                            <div id="content_area5">
+                                                            <div id="content_area5_0">
+<script type="text/javascript">
+    var interval	=	    '60';
+    var ajaxHandlerUrl	=	'http://basket.com.ua/frontend/pages/ajaxHandler.php';
+    var onlineGamesTimer;
+    var onlineGamesCount = 0;
+    var onlineGamesCounter = 0;
+
+    function getOnlineGamesData()
+    {
+        var data = {
+            action:     'getCurrentGamesData',
+            handler:	'GamesController'
+        };
+        $.post(
+                ajaxHandlerUrl,
+                data,
+                function (response)
+                {
+                    $('#onlineGamesRotatorHolder').empty().append(response.html);
+                    /*curGames = response.curGames;*/
+                    setTimeout(refreshOnlineGamesData,interval*1000);
+
+                    onlineGamesCount = response.gamesCount;
+                    if(onlineGamesCount)
+                        $('#onlineGamesRotatorHolder').show();
+                    else
+                        $('#onlineGamesRotatorHolder').hide();
+
+                    onlineGamesCounter = 0;
+                    if(onlineGamesCount > 1)
+                    {
+                        clearInterval(onlineGamesTimer);
+                        onlineGamesTimer = setInterval(toggleOnlineGame, 10000);
+                    }
+
+                },
+                "json"
+        );
+    }
+
+    function refreshOnlineGamesData()
+    {
+        var data = {
+            action:		'refreshOnlineGamesData',
+            handler:	'GamesController'
+        };
+        $.post(
+                ajaxHandlerUrl,
+                data,
+                function (response)
+                {
+                    if(response.gamesData.length == $('#onlineGames li').length)
+                    {
+                        for (var key in response.gamesData){
+                            var game = $('#onlineGame_'+response.gamesData[key]['gameId']);
+                            if(game.length)
+                            {
+                                game.find('span.onlineGameClubAScore').empty().append(response.gamesData[key]['scoreA']);
+                                game.find('span.onlineGameClubBScore').empty().append(response.gamesData[key]['scoreB']);
+                            }
+                        }
+                        setTimeout(refreshOnlineGamesData, interval*1000);
+                    }
+                    else{
+                        getOnlineGamesData();
+                    }
+                },
+                "json"
+        );
+    }
+
+    function toggleOnlineGame()
+    {
+
+        $('#onlineGames li.onlineGame_'+onlineGamesCounter).slideUp(400);
+        (onlineGamesCounter < (onlineGamesCount-1)) ? onlineGamesCounter = onlineGamesCounter + 1 : onlineGamesCounter = 0;
+        $('#onlineGames li.onlineGame_'+onlineGamesCounter).slideDown(400);
+    }
+
+</script>
+
+<div id="onlineGamesRotatorHolder">
+    </div>
+<script type="text/javascript">
+    getOnlineGamesData();
+</script></div>
+                                                            <div id="content_area5_1"><div class="onlineGames">
+<p><!--<div class="onlineGames" style="margin:0 0 10px 0;">
+
+
+
+<div id="live-games-banner-container" class="live-games-banner" style="width:200px;"></div>
+<script type="text/javascript" src="http://web1.mbt.lt/prod/snakesilver-client/integration/uka.js"></script>
+
+
+-->  <iframe src="http://live.baskethotel.com/ubf/lgb/&#63;lang=20" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" width="200" height="73" frameborder="0" align="middle"><style>
+body {background-color:transparent;}
+</style><br></iframe></p>
+</div>
+</div>
+                                                            <div id="content_area5_2"><a href="https://goo.gl/2OR9E6" target="_blank"><img src="http://basket.com.ua/frontend/webcontent/images/2.jpg" alt="" border="0" /></a>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!— Basket 240x400 —>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:240px;height:400px"
+     data-ad-client="ca-pub-9931776041368432"
+     data-ad-slot="7623781101"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+                                                            <div id="content_area5_3"><div class="newsMakerListObject">
+    <div class="newsMakerListContent">
+        <img src="http://basket.com.ua/frontend/webcontent/system_images/pick.png" style="float: left;margin: 13px 0 0 10px;">
+		<h2>NEWSMAKER</h2>
+		<ul>
+			                <li class="color">
+                    <span class="NMloginName">antonius1109</span>
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/meshok.png" class="mesh"/>
+                                        <div class="newsmake" >
+                        <span class="nmPart1">1138</span>
+                        <span class="nmPart2">грн.</span>
+                    </div>
+                </li>
+			                <li>
+                    <span class="NMloginName">dinero</span>
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/meshok.png" class="mesh"/>
+                                        <div class="newsmake" >
+                        <span class="nmPart1">754</span>
+                        <span class="nmPart2">грн.</span>
+                    </div>
+                </li>
+			                <li class="color">
+                    <span class="NMloginName">kaptoxa</span>
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/meshok.png" class="mesh"/>
+                                        <div class="newsmake" >
+                        <span class="nmPart1">473</span>
+                        <span class="nmPart2">грн.</span>
+                    </div>
+                </li>
+			                <li>
+                    <span class="NMloginName">Clayton</span>
+                                        <div class="newsmake" >
+                        <span class="nmPart1">35</span>
+                        <span class="nmPart2">грн.</span>
+                    </div>
+                </li>
+			                <li class="color">
+                    <span class="NMloginName">UaBoy19</span>
+                                        <div class="newsmake" >
+                        <span class="nmPart1">14</span>
+                        <span class="nmPart2">грн.</span>
+                    </div>
+                </li>
+			                <li>
+                    <span class="NMloginName">monfan</span>
+                                        <div class="newsmake" >
+                        <span class="nmPart1">14</span>
+                        <span class="nmPart2">грн.</span>
+                    </div>
+                </li>
+			                <li class="color">
+                    <span class="NMloginName">Любитель</span>
+                                        <div class="newsmake" >
+                        <span class="nmPart1">13</span>
+                        <span class="nmPart2">грн.</span>
+                    </div>
+                </li>
+			                <li>
+                    <span class="NMloginName">Beaver</span>
+                                        <div class="newsmake" >
+                        <span class="nmPart1">7</span>
+                        <span class="nmPart2">грн.</span>
+                    </div>
+                </li>
+					</ul>
+		<div class="newsMakerListLinkDiv">
+            <a href="http://basket.com.ua/newsMakers_list/460.htm" class="newsMakerListLink">Полный рейтинг <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_3.png" id="newsMakerListLink_img"/></a>
+		</div>
+	</div>
+</div>
+</div>
+                                                            <div id="content_area5_4"><div style="clear:both;"></div></div>
+                                                            <div id="content_area5_5"><div style="padding-bottom:10px;"><div id="SinoptikInformer" style="width:238px;" class="SinoptikInformer type1"><div class="siHeader"><div class="siLh"><div class="siMh"><a onmousedown="siClickCount();" href="http://sinoptik.ua/" target="_blank">Погода</a><a onmousedown="siClickCount();" class="siLogo" href="http://sinoptik.ua/" target="_blank"><img alt="Прогноз погоды" src="http://informers.sinoptik.ua/img/t.gif" /></a> <span id="siHeader"></span></div></div></div><div class="siBody"><div class="siCity"><div class="siCityName"><a onmousedown="siClickCount();" href="http://sinoptik.ua/погода-киев" target="_blank">Погода в <span>Киеве</span></a></div><div id="siCont0" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT0"></div><div id="weatherIco0"></div></div><div class="siInf"><p>влажность: <span id="vl0"></span></p><p>давление: <span id="dav0"></span></p><p>ветер: <span id="wind0"></span></p></div></div></div><div class="siCity"><div class="siCityName"><a onmousedown="siClickCount();" href="http://sinoptik.ua/погода-одесса" target="_blank">Погода в <span>Одессе</span></a></div><div id="siCont1" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT1"></div><div id="weatherIco1"></div></div><div class="siInf"><p>влажность: <span id="vl1"></span></p><p>давление: <span id="dav1"></span></p><p>ветер: <span id="wind1"></span></p></div></div></div><div class="siCity"><div class="siCityName"><a onmousedown="siClickCount();" href="http://sinoptik.ua/погода-донецк" target="_blank">Погода в <span>Донецке</span></a></div><div id="siCont2" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT2"></div><div id="weatherIco2"></div></div><div class="siInf"><p>влажность: <span id="vl2"></span></p><p>давление: <span id="dav2"></span></p><p>ветер: <span id="wind2"></span></p></div></div></div><div class="siCity"><div class="siCityName"><a onmousedown="siClickCount();" href="http://sinoptik.ua/погода-днепропетровск" target="_blank">Погода в <span>Днепропетровске</span></a></div><div id="siCont3" class="siBodyContent"><div class="siLeft"><div class="siTerm"></div><div class="siT" id="siT3"></div><div id="weatherIco3"></div></div><div class="siInf"><p>влажность: <span id="vl3"></span></p><p>давление: <span id="dav3"></span></p><p>ветер: <span id="wind3"></span></p></div></div></div><div class="siLinks"><span><a onmousedown="siClickCount();" href="http://sinoptik.ua/погода-херсон" target="_blank">Погода в Херсоне</a>&nbsp;</span><span><a onmousedown="siClickCount();" href="http://sinoptik.ua/погода-луганск" target="_blank">Погода в Луганске</a>&nbsp;</span></div></div><div class="siFooter"><div class="siLf"><div class="siMf"></div></div></div></div><script type="text/javascript" charset="UTF-8" src="http://informers.sinoptik.ua/js3.php?title=4&amp;wind=3&amp;cities=303010783,303018950,303007405,303007131&amp;lang=ru"></script></div></div>
+                                                            <div id="content_area5_6"></div>
+                                                            <div id="content_area5_7"><div style="padding:10px;">
+<fb:like-box header="false" stream="false" show_faces="true" height="180" width="222" href="http://www.facebook.com/pages/basketcomua/198296536848680"></fb:like-box><br />
+<br />
+<script type="text/javascript" src="http://userapi.com/js/api/openapi.js?45"></script>  <!-- VK Widget --></p>
+<div id="vk_groups">&nbsp;</div>
+<p><script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 1, width: "222", height: "50"}, 32724437);
+</script>
+</div>
+</div>
+                                                    </div>
+                                                            </div>
+					<div class="contentCenter">
+						<img src="http://basket.com.ua/frontend/webcontent/system_images/liniya.png" width="495" height="7" id="img_lini" />
+<div class="firstColumnContainer">
+    <div class="firstColumnContent news">
+        <div class="part1">
+            <div id="part1_1">
+                <img src="http://basket.com.ua/frontend/webcontent/system_images/lenta_new.png" width="24" height="23" class="new_lenta" />
+                <h2>ЛЕНТА НОВОСТЕЙ</h2>
+                <div id="add_new">
+                    <a href="http://basket.com.ua/addNews/456.htm">+ добавить новость</a>
+                </div>
+                <img src="http://basket.com.ua/frontend/webcontent/system_images/liniya_2.png" id="liniya_2" />
+                <div class="">
+                                            <div class="date">
+                            07.03.2017
+                        </div>
+                        <div class="ul_new">
+                            <ul>
+                                                            <li  style="border:none;">
+                                    <a href="http://basket.com.ua/news/60640.htm">Дион Уэйтерс сверхдальним трехочковым прервал рывок "Кливленда"</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60639.htm">ЛеБрон Джеймс: "Я слышал этот звук, когда у Богута сломалась нога"</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />1</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60637.htm">НБА: топ-10 моментов дня</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60638.htm">Игроки "Хьюстона" не смогли догнать соперников, чтобы сфолить в концовке матча со "Сперс"</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />2</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60636.htm">Набор в баскетбольный лагерь Summer Basketball Camp (Сербия)</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60635.htm">"Мы с тобой одной крови": какие команды НБА играют в одном стиле?</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/blog.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60634.htm">Батлер во время штрафных попытался дать "пять" сопернику </a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60633.htm">Бигмэн "Фенербахче" получил травму ключицы</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60632.htm">НБА: топ-10 моментов, данков, защитных действий и передач недели</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60631.htm">Самые смешные и курьезные моменты недели в НБА</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60630.htm">Ларри Берд поставил точку в вопросе об обмене Пола Джорджа</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60629.htm">Чемпионат Франции: <strong>Рэндл</strong></a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60628.htm">Определены игроки недели НБА</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60627.htm">Эндрю Богут получил перелом ноги на первой минуте дебютной игры за "Кливленд"</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />1</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60626.htm">Cпор между Шредером и Ховардом во время игры позволил Карри забить открытый 3-очковый</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60625.htm">Матч "Миннесота" – "Портленд" перенесен</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/foto.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60624.htm">НБА: результаты матчей</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />1</span>
+                                                                    </li>
+                                                        </ul>
+                        </div>
+                        <div class="clear"></div>
+                                            <div class="date">
+                            06.03.2017
+                        </div>
+                        <div class="ul_new">
+                            <ul>
+                                                            <li  style="border:none;">
+                                    <a href="http://basket.com.ua/news/60623.htm">Соперник сборной Украины по Евробаскету-2017 может не досчитаться лидера</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />1</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60622.htm">"Панатинаикос" покинет звездный защитник</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60621.htm">Пэт Райли: "Уход ЛеБрона – самое шокирующее, что произошло с "Майами"</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60619.htm">Мужская студенческая сборная Украины выступит на Всемирной Универсиаде - 2017</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/important.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60618.htm">ФБУ рассмотрела обращение "Будивельника" по судейству финала Кубка</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />2</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60617.htm">Чемпионат России: <Strong>Глазырин</Strong></a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />4</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60616.htm">Экс-игрок НБА завершил сезон в Китае с сумасшедшей статистикой</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60615.htm">НБА: превью матчей понедельника</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/blog.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />2</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60614.htm" class="boldTitle">Игроки Суперлиги определили состав двух пятерок на Матч Звезд</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />10</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60613.htm">Отец звезды "Миннесоты" намерен засудить талисмана команды</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60612.htm">Полуфиналист Еврокубка потерял форварда из-за травмы</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60611.htm">Лагерь индивидуальной подготовки Basketball summer camp-2017</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60610.htm">Видеообзор 16-го тура чемпионата Любительской баскетбольной лиги Ривненщины</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60609.htm">Чемпионат Грузии: <Strong>Тищенко, Забирченко, Кривцов, Шемосюк</Strong></a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />1</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60608.htm">Курьезный эпизод в матче "Финикс" - "Бостон"</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />4</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60607.htm">Марк Кьюбан о Расселе Уэстбруке: "Он не MVP"</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60606.htm">Юсуф Нуркич: "На сто процентов верю в то, что "Портленд" будет в плей-офф"</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60605.htm">Пять клатч-бросков за один день в НБА</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60604.htm">Стив Керр рассказал, как справиться со спадом в броске при помощи пива</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />1</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60603.htm">НБА: топ-10 моментов дня</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60602.htm">Вадим Пудзырей: "Взяли двух людей, которые должны были нам помочь, но пока их помощи не ощущается"</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60601.htm">Старость в радость: игроки, нашедшие себя после окончания карьеры</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/blog.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60600.htm">НБА: результаты матчей - <strong>Лэнь</strong></a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />5</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60599.htm">Стеф Карри вошел в топ-10 лучших дальнобойщиков НБА</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60592.htm" class="boldTitle">Матч Звезд Суперлиги: ФБУ досрочно закрыла голосование и изменила правила</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />10</span>
+                                                                    </li>
+                                                        </ul>
+                        </div>
+                        <div class="clear"></div>
+                                            <div class="date">
+                            05.03.2017
+                        </div>
+                        <div class="ul_new">
+                            <ul>
+                                                            <li  style="border:none;">
+                                    <a href="http://basket.com.ua/news/60581.htm">НБА: превью матчей воскресенья</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/blog.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60598.htm">Чемпионат Испании (2-й дивизион): <Strong>Герун</Strong></a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60585.htm">Чемпионат Испании, результаты 23-го тура: <Strong>Пустовой</Strong></a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60596.htm">Чемпионат Франции: <strong>Гладыр</strong></a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60595.htm">Борис Сагай: "Игроки "скамейки" не всегда выполняют требования тренера"</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60594.htm">Чемпионат Италии: <Strong>Фесенко</Strong></a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60593.htm">Форвард "Будивельника" сломал кольцо в матче с "Кремнем"</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />2</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60591.htm">Валерий Плеханов: "Плачевный результат"</a>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                            <li >
+                                    <a href="http://basket.com.ua/news/60590.htm">Евролига: самые смешные моменты февраля</a>
+                                                                            <div class="newsLabelImgHolder"><img src="http://basket.com.ua/frontend/webcontent/system_images/video.png" /></div>
+                                                                                                                <span><img src="http://basket.com.ua/frontend/webcontent/system_images/comenet_.png" />0</span>
+                                                                    </li>
+                                                        </ul>
+                        </div>
+                        <div class="clear"></div>
+                                    </div>
+            </div>
+        </div>
+        <a href="http://basket.com.ua/news_list/528.htm" class="allNewsLineLink">вся лента новостей<img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_3.png" id="new_all_img" /></a>
+    </div>
+</div>
+<div id="center">
+    <div class="lastColumContainer">
+        <img class="last_img" src="http://basket.com.ua/frontend/webcontent/system_images/zvezda.png"/>
+        <h2>ВАЖНОЕ</h2>
+        <img style="width: 290px;margin: 2px 10px 0;height: 1px;" src="http://basket.com.ua/frontend/webcontent/system_images/liniya_2.png" />
+        <ul>
+                    <li>
+                <div class="coment_2">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                    <span>10</span>
+                </div>
+                <a href="http://basket.com.ua/news/60614.htm">Игроки Суперлиги определили состав двух пятерок на Матч Звезд</a>
+            </li>
+                    <li>
+                <div class="coment_2">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                    <span>0</span>
+                </div>
+                <a href="http://basket.com.ua/news/60214.htm">Календарь киевского регионального этапа студенческого чемпионата Украины</a>
+            </li>
+                    <li>
+                <div class="coment_2">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                    <span>1</span>
+                </div>
+                <a href="http://basket.com.ua/news/60255.htm">NBA All-Star Weekend 2017 - <strong>видео на русском</strong></a>
+            </li>
+                    <li>
+                <div class="coment_2">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                    <span>2</span>
+                </div>
+                <a href="http://basket.com.ua/news/60167.htm">Ретроспектива: Финал четырех Кубка Украины - 2007 </a>
+            </li>
+                    <li>
+                <div class="coment_2">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                    <span>1</span>
+                </div>
+                <a href="http://basket.com.ua/news/59435.htm">Опубликован календарь 3-го круга Суперлиги Пари-Матч</a>
+            </li>
+                </ul>
+    </div>
+    <div class="gamesListHomeObject">
+        <img class="last_img" src="http://basket.com.ua/frontend/webcontent/system_images/gamesListTitle.png"/>
+        <h2>игры страны</h2>
+        <ul>
+                                                <li>
+                        <a href="http://basket.com.ua/game/2427.htm">
+                            <span class="dateBlock">07.03</span>
+                            <span class="clubNameBlock">Запорожский Вектор</span>
+                            <span class="scoreBlock">0:0</span>
+                            <span class="clubNameBlock">Гринлайф</span>
+                            <span class="commentsBlock">
+                                <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="http://basket.com.ua/game/2719.htm">
+                            <span class="dateBlock">06.03</span>
+                            <span class="clubNameBlock">МНТУ</span>
+                            <span class="scoreBlock">59:66</span>
+                            <span class="clubNameBlock">Крабы</span>
+                            <span class="commentsBlock">
+                                <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="http://basket.com.ua/game/2615.htm">
+                            <span class="dateBlock">06.03</span>
+                            <span class="clubNameBlock">Мохіто</span>
+                            <span class="scoreBlock">0:0</span>
+                            <span class="clubNameBlock">Ірбіс</span>
+                            <span class="commentsBlock">
+                                <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="http://basket.com.ua/game/2297.htm">
+                            <span class="dateBlock">06.03</span>
+                            <span class="clubNameBlock">Октябрьский Молот-2</span>
+                            <span class="scoreBlock">76:44</span>
+                            <span class="clubNameBlock">Варяги-2</span>
+                            <span class="commentsBlock">
+                                <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                                                        <span class="hSplitter"></span><span style="display: none;"></span>
+                                                            <li>
+                        <a href="http://basket.com.ua/game/2778.htm">
+                            <span class="dateBlock">07.03</span>
+                            <span class="clubNameBlock">Маяк</span>
+                            <span class="scoreBlock">0:0</span>
+                            <span class="clubNameBlock">БК Здолбунов</span>
+                            <span class="commentsBlock">
+                                <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="http://basket.com.ua/game/2720.htm">
+                            <span class="dateBlock">07.03</span>
+                            <span class="clubNameBlock">Каштан</span>
+                            <span class="scoreBlock">0:0</span>
+                            <span class="clubNameBlock">Бродяги</span>
+                            <span class="commentsBlock">
+                                <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://basket.com.ua/game/2721.htm">
+                            <span class="dateBlock">07.03</span>
+                            <span class="clubNameBlock">ARD</span>
+                            <span class="scoreBlock">0:0</span>
+                            <span class="clubNameBlock">UDавы</span>
+                            <span class="commentsBlock">
+                                <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                                                                <li>
+                        <a href="http://basket.com.ua/game/2428.htm">
+                            <span class="dateBlock">08.03</span>
+                            <span class="clubNameBlock">ЗНУ</span>
+                            <span class="scoreBlock">0:0</span>
+                            <span class="clubNameBlock">БК Запорожье-2</span>
+                            <span class="commentsBlock">
+                                <img src="http://basket.com.ua/frontend/webcontent/system_images/coment.png">
+                                0
+                            </span>
+                        </a>
+                    </li>
+                                    </ul>
+    </div>
+    <div class="last_coment">
+        <img class="last_img" src="http://basket.com.ua/frontend/webcontent/system_images/last_coment.png"/>
+        <h2>СВЕЖИЕ КОММЕНТАРИИ</h2>
+        <ul>
+                            <li  class="color">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Roma Svitin</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60618.htm" class="last_a">
+	                        ФБУ рассмотрела обращение "Будивельника" по судейству финала Кубка
+	                    </a>
+                    </div>
+                </li>
+                            <li >
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Roma Svitin</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60614.htm" class="last_a">
+	                        Игроки Суперлиги определили состав двух пятерок на Матч Звезд
+	                    </a>
+                    </div>
+                </li>
+                            <li  class="color">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Макс Сергеев</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60624.htm" class="last_a">
+	                        НБА: результаты матчей
+	                    </a>
+                    </div>
+                </li>
+                            <li >
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Макс Сергеев</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60638.htm" class="last_a">
+	                        Игроки "Хьюстона" не смогли догнать соперников, чтобы сфолить в концовке матча со "Сперс"
+	                    </a>
+                    </div>
+                </li>
+                            <li  class="color">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Алексей Макаренко</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60639.htm" class="last_a">
+	                        ЛеБрон Джеймс: "Я слышал этот звук, когда у Богута сломалась нога"
+	                    </a>
+                    </div>
+                </li>
+                            <li >
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Андрей Панькив</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60627.htm" class="last_a">
+	                        Эндрю Богут получил перелом ноги на первой минуте дебютной игры за "Кливленд"
+	                    </a>
+                    </div>
+                </li>
+                            <li  class="color">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Oleg Iemets</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60608.htm" class="last_a">
+	                        Курьезный эпизод в матче "Финикс" - "Бостон"
+	                    </a>
+                    </div>
+                </li>
+                            <li >
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Alexander Matrosov</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60623.htm" class="last_a">
+	                        Соперник сборной Украины по Евробаскету-2017 может не досчитаться лидера
+	                    </a>
+                    </div>
+                </li>
+                            <li  class="color">
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Oleg Iemets</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60609.htm" class="last_a">
+	                        Чемпионат Грузии: <Strong>Тищенко, Забирченко, Кривцов, Шемосюк</Strong>
+	                    </a>
+                    </div>
+                </li>
+                            <li >
+                    <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                    <div class="rightPart">
+	                    <span class="last_text">Oleg Semyonov</span>
+	                    <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+	                    <a href="http://basket.com.ua/news/60615.htm" class="last_a">
+	                        НБА: превью матчей понедельника
+	                    </a>
+                    </div>
+                </li>
+                    </ul>
+    </div>
+    <div class="last_coment">
+        <img class="last_img" src="http://basket.com.ua/frontend/webcontent/system_images/edit_.png"/>
+        <h2>СВЕЖЕЕ В БЛОГАХ</h2>
+        <ul>
+                            <li  class="color">
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">antonius1109</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/60443.htm" class="last_a">
+                            15 самых важных игроков Западной Конференции для оставшейся части сезона (часть 3)
+                        </a>
+                    </div>
+                </li>
+                            <li >
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">antonius1109</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/60430.htm" class="last_a">
+                            15 самых важных игроков Западной Конференции для оставшейся части сезона (часть 2)
+                        </a>
+                    </div>
+                </li>
+                            <li  class="color">
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">antonius1109</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/60426.htm" class="last_a">
+                            15 самых важных игроков Западной Конференции для оставшейся части сезона (часть 1)
+                        </a>
+                    </div>
+                </li>
+                            <li >
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">antonius1109</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/60408.htm" class="last_a">
+                            15 самых важных игроков Восточной Конференции для оставшейся части сезона (часть 3)
+                        </a>
+                    </div>
+                </li>
+                            <li  class="color">
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">antonius1109</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/60405.htm" class="last_a">
+                            15 самых важных игроков Восточной Конференции для оставшейся части сезона (часть 2)
+                        </a>
+                    </div>
+                </li>
+                            <li >
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">antonius1109</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/60404.htm" class="last_a">
+                            15 самых важных игроков Восточной Конференции для оставшейся части сезона (часть 1)
+                        </a>
+                    </div>
+                </li>
+                            <li  class="color">
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">kaptoxa</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/60295.htm" class="last_a">
+                            Оценка сделки: мешок картошки за Казинса
+                        </a>
+                    </div>
+                </li>
+                            <li >
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">cshastye</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/60327.htm" class="last_a">
+                            "Погружение" продолжается - вебинар для родителей
+                        </a>
+                    </div>
+                </li>
+                            <li  class="color">
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">kaptoxa</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/60197.htm" class="last_a">
+                            Оценка сделки: Серж Ибака сделал "Торонто" контендером
+                        </a>
+                    </div>
+                </li>
+                            <li >
+                                            <img src="http://basket.com.ua/frontend/webcontent/system_images/logo_2.png" class="last_com_img">
+                                        <div class="rightPart">
+                        <span class="last_text">cshastye</span>
+                        <img src="http://basket.com.ua/frontend/webcontent/system_images/arrow_.png" class="arrow_2"/>
+                        <a href="http://basket.com.ua/article/59923.htm" class="last_a">
+                            Внимание: "Погружаемся" (обновлено)
+                        </a>
+                    </div>
+                </li>
+                    </ul>
+    </div>
+    <div class="last_coment">
+        <img class="last_img" src="http://basket.com.ua/frontend/webcontent/system_images/userRatingTitleImg.png"/>
+        <h2>РЕЙТИНГ ПОЛЬЗОВАТЕЛЕЙ</h2>
+        <ul>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/12914.htm" class="userLogin" style="width: 120px;">1.&nbsp;kaptoxa</a>
+                    <div class="userRatingBallsHolder">
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                            </div>
+                    <span class="userRatingValue">2292</span>
+                </li>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/10337.htm" class="userLogin" style="width: 120px;">2.&nbsp;dinero</a>
+                    <div class="userRatingBallsHolder">
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                            </div>
+                    <span class="userRatingValue">1863</span>
+                </li>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/189.htm" class="userLogin" style="width: 120px;">3.&nbsp;Любитель</a>
+                    <div class="userRatingBallsHolder">
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                            </div>
+                    <span class="userRatingValue">501</span>
+                </li>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/12454.htm" class="userLogin" style="width: 120px;">4.&nbsp;faberje</a>
+                    <div class="userRatingBallsHolder">
+                                                    <a href="#" onclick="ShowRatingPopUp();return false;" class="onClickShowRatingPopUp">&nbsp;</a>
+                                            </div>
+                    <span class="userRatingValue">403</span>
+                </li>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/13489.htm" class="userLogin" style="width: 120px;">5.&nbsp;antonius1109</a>
+                    <div class="userRatingBallsHolder">
+                                            </div>
+                    <span class="userRatingValue">271</span>
+                </li>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/9664.htm" class="userLogin" style="width: 120px;">6.&nbsp;True Ursus</a>
+                    <div class="userRatingBallsHolder">
+                                            </div>
+                    <span class="userRatingValue">94</span>
+                </li>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/8697.htm" class="userLogin" style="width: 120px;">7.&nbsp;AirForce1</a>
+                    <div class="userRatingBallsHolder">
+                                            </div>
+                    <span class="userRatingValue">93</span>
+                </li>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/2280.htm" class="userLogin" style="width: 120px;">8.&nbsp;Борис Бритва</a>
+                    <div class="userRatingBallsHolder">
+                                            </div>
+                    <span class="userRatingValue">79</span>
+                </li>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/13029.htm" class="userLogin" style="width: 120px;">9.&nbsp;romgur73</a>
+                    <div class="userRatingBallsHolder">
+                                            </div>
+                    <span class="userRatingValue">45</span>
+                </li>
+                            <li style="height: 22px; margin: 0 16px; padding: 0;">
+                                        <a href="http://basket.com.ua/user/11827.htm" class="userLogin" style="width: 120px;">10.&nbsp;bolt</a>
+                    <div class="userRatingBallsHolder">
+                                            </div>
+                    <span class="userRatingValue">44</span>
+                </li>
+                    </ul>
+    </div>
+<div></div>
+</div>
+                                                                                    
+
+<div style="display:inline-block; margin-top: 16px;">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!— Basket 728x90 —>
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:728px;height:90px"
+         data-ad-client="ca-pub-9931776041368432"
+         data-ad-slot="4670314709"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+                                                    					</div>
+                </div>
+                <div id="footer">
+                                            <div id="footer_area8">
+                                                            <div id="footer_area8_0">
+                                    <ul id="menu_2">
+    <li><a class="" href="http://basket.com.ua/">главная</a><span><img src="http://basket.com.ua/frontend/webcontent/system_images/razdelitel_menu2.png"></span></li>
+    <li><a href="http://basket.com.ua/news_list/99.htm">новости</a><span><img src="http://basket.com.ua/frontend/webcontent/system_images/razdelitel_menu2.png"></span></li>
+    <li><a href="http://basket.com.ua/news_list/473.htm">статистика</a><span><img src="http://basket.com.ua/frontend/webcontent/system_images/razdelitel_menu2.png"></span></li>
+    <li><a href="http://basket.com.ua/news_list/497.htm">календарь</a><span><img src="http://basket.com.ua/frontend/webcontent/system_images/razdelitel_menu2.png"></span></li>
+    <li><a href="http://basket.com.ua/articleList/453.htm">блоги</a><span><img src="http://basket.com.ua/frontend/webcontent/system_images/razdelitel_menu2.png"></span></li>
+    <li><a href="http://basket.com.ua/news_list/489.htm">турниры</a><span><img src="http://basket.com.ua/frontend/webcontent/system_images/razdelitel_menu2.png"></span></li>
+    <li><a href="http://basket.com.ua/tags_list/48216.htm">теги</a><span><img src="http://basket.com.ua/frontend/webcontent/system_images/razdelitel_menu2.png"></span></li>
+    <li><a href="http://basket.com.ua/content/463.htm">faq</a></li>
+</ul>
+                                </div>
+                                                            <div id="footer_area8_1">
+                                    <p><!--bigmir)net TOP 100 Part 1-->
+<script type="text/javascript" language="javascript"><!--
+bmN=navigator,bmD=document,bmD.cookie='b=b',i=0,bs=[],bm={v:144546,s:144546,t:6,c:bmD.cookie?1:0,n:Math.round((Math.random()* 1000000)),w:0};
+for(var f=self;f!=f.parent;f=f.parent)bm.w++;
+try{if(bmN.plugins&&bmN.mimeTypes.length&&(x=bmN.plugins['Shockwave Flash']))bm.m=parseInt(x.description.replace(/([a-zA-Z]|\s)+/,''));
+else for(var f=3;f<20;f++)if(eval('new ActiveXObject("ShockwaveFlash.ShockwaveFlash.'+f+'")'))bm.m=f}catch(e){;}
+try{bm.y=bmN.javaEnabled()?1:0}catch(e){;}
+try{bmS=screen;bm.v^=bm.d=bmS.colorDepth||bmS.pixelDepth;bm.v^=bm.r=bmS.width}catch(e){;}
+r=bmD.referrer.slice(7);if(r&&r.split('/')[0]!=window.location.host){bm.f=escape(r);bm.v^=r.length}
+bm.v^=window.location.href.length;for(var x in bm) if(/^[vstcnwmydrf]$/.test(x)) bs[i++]=x+bm[x];
+bmD.write('<img src="http://c.bigmir.net/?'+bs.join('&')+'"  width="0" height="0" border="0" alt="bigmir)net TOP 100" title="bigmir)net TOP 100" />');
+//-->
+</script>
+<noscript><img src="http://c.bigmir.net/?v144546&s144546&t6" width="0" height="0" alt="" title="" border="0" /></noscript>
+<!--bigmir)net TOP 100 Part 1-->
+
+<!--bigmir)net TOP 100 Part 2-->
+<a href="http://www.bigmir.net/" target="_blank" onClick='img=new Image();img.src="http://www.bigmir.net/?cl=144546";'><img src="http://c.bigmir.net/?s144546&t23&l1" width="88" height="63" border="0" alt="bigmir)net TOP 100" title="bigmir)net TOP 100"></a>
+<!--bigmir)net TOP 100 Part 2--></p>
+                                </div>
+                                                            <div id="footer_area8_2">
+                                            <div id="infa">
+            <div id="menu_footer">
+                <a href="http://basket.com.ua/content/652.htm">Реклама на сайте</a>
+                <a href="http://basket.com.ua/content/467.htm">Правила</a>
+<a class="RSSLink" href="http://basket.com.ua/frontend/handlers/RSS.php">RSS</a>
+            </div>
+            <div id="inf_footer">
+Все вопросы и пожелания присылайте по адресу: <br/>
+<img alt="" src="http://basket.com.ua/frontend/webcontent/file/info-basket@ukr.jpg"/>
+<br/>
+При использовании материалов сайта ссылка на basket.com.ua обязательна.<br/> Редакция <b>basket.com.ua</b> не всегда разделяет позицию авторов.
+<br/><br/>
+ © 1999 - 2017 www.basket.com.ua
+            </div>
+        </div>
+                                </div>
+                                                    </div>
+                                     </div>
+                <div id="developersLinkHolder">
+                    <a href="http://iproaction.com/" title="Разработка сайта"></a>
+                </div>
+            </div>
+            <script>
+                var ajaxHandlerUrl = 'http://basket.com.ua/frontend/pages/ajaxHandler.php';
+            </script>
+            <div id="ratingPopupReference" class="userInfoPopupClass">
+                Индикатор репутации - оценка всех предыдущих комментариев пользователя за последние 12 месяцев, сделанная другими пользователями. Этот показатель позволяет предположить, оставлен ли комментарий уважаемым автором или нет.            </div>
+        </div>
+    </body>
+</html>
