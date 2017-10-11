@@ -1,8 +1,12 @@
 from bs4 import BeautifulSoup
-from urllib.request import urlopen
-import re
+import requests
 
-html_page = urlopen("http://basket.com.ua")
-soup = BeautifulSoup(html_page)
-for link in soup.findAll(attrs={'class' : 'date'}):
-    print(link)
+
+a = requests.get(' http://basket.com.ua')
+soup = BeautifulSoup(a.content, 'lxml')
+els_ul_new = soup.find_all('div', {'class': 'ul_new'})
+els_arr = []
+for el in els_ul_new:
+    a_href_el = BeautifulSoup(el, 'lxml')
+
+
