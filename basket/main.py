@@ -14,7 +14,7 @@ els_arr = []
 for el in els_ul_new:
     a_href_el = BeautifulSoup(str(el), 'lxml').find_all('a')
     for a_hef in a_href_el:
-        print(a_hef)
+        print(a_hef.get(''))
         els_arr.extend(a_hef)
 
 ur = requests.get('http://basket.com.ua/news/64893.htm')
