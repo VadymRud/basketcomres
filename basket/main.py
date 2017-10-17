@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 from lxml import html
 
-a = requests.get(' http://basket.com.ua')
+a = requests.get('http://basket.com.ua')
 soup = BeautifulSoup(a.content, 'lxml')
 els_ul_new = soup.find_all('div', {'class': 'ul_new'})
 els_arr = []
